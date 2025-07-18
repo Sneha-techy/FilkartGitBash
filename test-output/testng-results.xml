@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-01T08:55:52 IST" name="Suite" finished-at="2025-07-01T08:56:13 IST" duration-ms="21546">
+    <groups>
+    </groups>
+    <test started-at="2025-07-01T08:55:52 IST" name="TestRunner-Edge" finished-at="2025-07-01T08:56:04 IST" duration-ms="12184">
+      <class name="login.two.GmailLoginTest">
+        <test-method signature="loginToGmail(java.lang.String)[pri:0, instance:login.two.GmailLoginTest@2898ac89]" started-at="2025-07-01T08:55:52 IST" name="loginToGmail" finished-at="2025-07-01T08:56:04 IST" duration-ms="12059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGmail -->
+      </class> <!-- login.two.GmailLoginTest -->
+    </test> <!-- TestRunner-Edge -->
+    <test started-at="2025-07-01T08:55:52 IST" name="TestRunner-FireFox" finished-at="2025-07-01T08:56:13 IST" duration-ms="21546">
+      <class name="login.two.FlipkartLoginTest">
+        <test-method signature="loginToFlipkart(java.lang.String)[pri:0, instance:login.two.FlipkartLoginTest@6ad82709]" started-at="2025-07-01T08:55:52 IST" name="loginToFlipkart" finished-at="2025-07-01T08:56:13 IST" duration-ms="21430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFlipkart -->
+      </class> <!-- login.two.FlipkartLoginTest -->
+    </test> <!-- TestRunner-FireFox -->
+  </suite> <!-- Suite -->
+</testng-results>
